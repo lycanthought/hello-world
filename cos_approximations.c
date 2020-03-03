@@ -118,6 +118,7 @@ return (c1 + x2*(c2 + x2*(c3 + c4*x2)));
 // It reduces the input argument's range to [0, pi/2],
 // and then calls the approximator. 
 // See the notes for an explanation of the range reduction.
+// NOTE: using the mBed compiler, constants used by this function must be global
 //
 float cos_52(float x){
 	int quad;						// what quadrant are we in?
