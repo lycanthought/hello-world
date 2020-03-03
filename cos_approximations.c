@@ -2,6 +2,7 @@
 //
 //  This is demo code to guide developers in implementing their own approximation
 // software. This code is merely meant to illustrate algorithms.
+// see http://www.ganssle.com/item/approximations-for-trig-c-code.htm for reference
 
 #include <iostream>
 #include <math.h>
