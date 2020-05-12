@@ -13,8 +13,12 @@ int main(int argc, char **argv)
 
 
 
-
-
+//Alternate loop
+while (true) {
+    c = getchar();
+    if (c == EOF) break;
+    // ...
+}
 
 
 
