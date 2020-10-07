@@ -1,0 +1,17 @@
+import random
+points = 0
+
+while points < 15:
+  print("You have ", points, " points.")
+  lulu = random.randrange(10)
+  boonie = random.randrange(10)
+  question = "What is " + str(lulu) + "+" + str(boonie) + "? "
+  guess = input(question)
+  if guess == lulu + boonie:
+    points = points + 3
+    print("Good job!")
+  else:
+    points = points - 1
+    print("Sorry, you got it wrong. ", lulu + boonie)
+
+print(" !!!!!!YOU WON THIS GAME !!!!!!")
